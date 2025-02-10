@@ -1,0 +1,12 @@
+{
+    "AttachedPolicies": [
+        {
+            "PolicyName": "AmazonEC2FullAccess",
+            "PolicyArn": "arn:aws:iam::aws:policy/AmazonEC2FullAccess"
+        },
+        {
+            "PolicyName": "AmazonS3FullAccess",
+            "PolicyArn": "arn:aws:iam::aws:policy/AmazonS3FullAccess"
+        }
+    ]
+}

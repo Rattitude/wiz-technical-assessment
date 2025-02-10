@@ -1,0 +1,164 @@
+{
+    "Reservations": [
+        {
+            "ReservationId": "r-0feafe6aae098b34e",
+            "OwnerId": "903719520805",
+            "Groups": [],
+            "Instances": [
+                {
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda",
+                            "Ebs": {
+                                "AttachTime": "2025-02-08T19:48:54+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0f6fcadafadaac6f7"
+                            }
+                        }
+                    ],
+                    "ClientToken": "48af7aaf-c5d3-4a44-8e1c-d71f247545a9",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::903719520805:instance-profile/vizh-service-profile2",
+                        "Id": "AIPA5E2PBRIS6MU3ANAWN"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {
+                                "IpOwnerId": "amazon",
+                                "PublicDnsName": "ec2-54-87-65-213.compute-1.amazonaws.com",
+                                "PublicIp": "54.87.65.213"
+                            },
+                            "Attachment": {
+                                "AttachTime": "2025-02-08T19:48:53+00:00",
+                                "AttachmentId": "eni-attach-0e89f4546a652e9af",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-0a5614e2d3a87e97a",
+                                    "GroupName": "launch-wizard-2"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "0a:ff:e9:ce:04:6b",
+                            "NetworkInterfaceId": "eni-0b8ca29202957c097",
+                            "OwnerId": "903719520805",
+                            "PrivateDnsName": "ip-10-0-20-39.ec2.internal",
+                            "PrivateIpAddress": "10.0.20.39",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Association": {
+                                        "IpOwnerId": "amazon",
+                                        "PublicDnsName": "ec2-54-87-65-213.compute-1.amazonaws.com",
+                                        "PublicIp": "54.87.65.213"
+                                    },
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-0-20-39.ec2.internal",
+                                    "PrivateIpAddress": "10.0.20.39"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-0105dab73e20cefd1",
+                            "VpcId": "vpc-031d8f1af1b316fa8",
+                            "InterfaceType": "interface",
+                            "Operator": {
+                                "Managed": false
+                            }
+                        }
+                    ],
+                    "RootDeviceName": "/dev/xvda",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-0a5614e2d3a87e97a",
+                            "GroupName": "launch-wizard-2"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "Vizh-Exposed-Instance2"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 1
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "required",
+                        "HttpPutResponseHopLimit": 2,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2025-02-08T19:48:53+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": false,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios",
+                    "NetworkPerformanceOptions": {
+                        "BandwidthWeighting": "default"
+                    },
+                    "Operator": {
+                        "Managed": false
+                    },
+                    "InstanceId": "i-0543ffa7e084d6f8c",
+                    "ImageId": "ami-04681163a08179f28",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "PrivateDnsName": "ip-10-0-20-39.ec2.internal",
+                    "PublicDnsName": "ec2-54-87-65-213.compute-1.amazonaws.com",
+                    "StateTransitionReason": "",
+                    "KeyName": "vizh-keypair2",
+                    "AmiLaunchIndex": 0,
+                    "ProductCodes": [],
+                    "InstanceType": "t2.micro",
+                    "LaunchTime": "2025-02-08T19:48:53+00:00",
+                    "Placement": {
+                        "GroupName": "",
+                        "Tenancy": "default",
+                        "AvailabilityZone": "us-east-1b"
+                    },
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "SubnetId": "subnet-0105dab73e20cefd1",
+                    "VpcId": "vpc-031d8f1af1b316fa8",
+                    "PrivateIpAddress": "10.0.20.39",
+                    "PublicIpAddress": "54.87.65.213"
+                }
+            ]
+        }
+    ]
+}

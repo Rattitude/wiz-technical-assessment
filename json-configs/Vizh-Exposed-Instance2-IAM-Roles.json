@@ -1,0 +1,27 @@
+{
+    "Role": {
+        "Path": "/",
+        "RoleName": "vizh-service-role-fullaccess2",
+        "RoleId": "AROA5E2PBRISVIKAQVRGV",
+        "Arn": "arn:aws:iam::903719520805:role/vizh-service-role-fullaccess2",
+        "CreateDate": "2025-02-08T19:52:12+00:00",
+        "AssumeRolePolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "ec2.amazonaws.com"
+                    },
+                    "Action": "sts:AssumeRole"
+                }
+            ]
+        },
+        "Description": "Allows EC2 instances to call AWS services on your behalf.",
+        "MaxSessionDuration": 3600,
+        "RoleLastUsed": {
+            "LastUsedDate": "2025-02-08T20:17:31+00:00",
+            "Region": "us-east-1"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "AttachedPolicies": [
+        {
+            "PolicyName": "vizh-limited-access2",
+            "PolicyArn": "arn:aws:iam::903719520805:policy/vizh-limited-access2"
+        }
+    ]
+}

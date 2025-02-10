@@ -1,0 +1,58 @@
+{
+    "Return": true,
+    "SecurityGroupRules": [
+        {
+            "SecurityGroupRuleId": "sgr-0d4e6d9c7454b73bc",
+            "GroupId": "sg-0a5614e2d3a87e97a",
+            "GroupOwnerId": "903719520805",
+            "IsEgress": false,
+            "IpProtocol": "tcp",
+            "FromPort": 22,
+            "ToPort": 22,
+            "CidrIpv4": "MY_HIDDEN_IP_:)",
+            "SecurityGroupRuleArn": "arn:aws:ec2:us-east-1:903719520805:security-group-rule/sgr-0d4e6d9c7454b73bc"
+        }
+    ]
+}
+
+PS C:\Users\mikec> aws ec2 describe-security-groups --group-ids sg-0a5614e2d3a87e97a
+{
+    "SecurityGroups": [
+        {
+            "GroupId": "sg-0a5614e2d3a87e97a",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "VpcId": "vpc-031d8f1af1b316fa8",
+            "SecurityGroupArn": "arn:aws:ec2:us-east-1:903719520805:security-group/sg-0a5614e2d3a87e97a",
+            "OwnerId": "903719520805",
+            "GroupName": "launch-wizard-2",
+            "Description": "launch-wizard-2 created 2025-02-08T19:39:21.266Z",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 22,
+                    "ToPort": 22,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "CidrIp": "MY_HIDDEN_IP_:)"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        }
+    ]
+}

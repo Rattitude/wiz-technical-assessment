@@ -1,0 +1,14 @@
+{
+    "Policy": {
+        "PolicyName": "vizh-limited-access2",
+        "PolicyId": "ANPA5E2PBRISU6YA3TO4T",
+        "Arn": "arn:aws:iam::903719520805:policy/vizh-limited-access2",
+        "Path": "/",
+        "DefaultVersionId": "v1",
+        "AttachmentCount": 0,
+        "PermissionsBoundaryUsageCount": 0,
+        "IsAttachable": true,
+        "CreateDate": "2025-02-09T20:04:17+00:00",
+        "UpdateDate": "2025-02-09T20:04:17+00:00"
+    }
+}
